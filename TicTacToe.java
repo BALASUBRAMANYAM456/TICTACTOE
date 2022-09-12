@@ -1,6 +1,6 @@
 public class TicTacToe{
 	static void createBoard() {
-		char[] board=new char[10];
+		char[] board=new char[10];   //  declaring and allocating memory to array 
 		for(int i=1;i<board.length;i++) {
 			board[i]=' ';
 		}
